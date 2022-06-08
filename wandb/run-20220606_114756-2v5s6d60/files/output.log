@@ -1,0 +1,40 @@
+
+using device cuda
+label: hallå, vänta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Batch loss: 2.91482:  37%|███████████████████████████████████████████████████████████████████████████▉                                                                                                                                | 402/1080 [01:09<01:57,  5.79it/s]
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train_2.py", line 123, in <module>
+    main()
+  File "z:/prog/swevoice/train_2.py", line 83, in main
+    preds, (_, _) = model(X, (h, c))
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "z:\prog\swevoice\model_2.py", line 75, in forward
+    x, (h, c) = self.rec(x, hidden)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\rnn.py", line 761, in forward
+    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+KeyboardInterrupt

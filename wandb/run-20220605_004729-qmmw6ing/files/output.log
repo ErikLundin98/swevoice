@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train.py", line 119, in <module>
+    main()
+  File "z:/prog/swevoice/train.py", line 31, in main
+    model.load_state_dict(torch.load(f'checkpoints/epoch_{epoch}.pt'))
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1470, in load_state_dict
+    state_dict = state_dict.copy()
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'SweVoice' object has no attribute 'copy'

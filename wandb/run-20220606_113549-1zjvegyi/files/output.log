@@ -1,0 +1,28 @@
+
+using device cuda
+label: avancerade läroböcker finns på hyllan längst ner till vänster.
+  0%|                                                                                                                                                                                                                                                                              | 0/1080 [00:25<?, ?it/s]
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train_2.py", line 123, in <module>
+    main()
+  File "z:/prog/swevoice/train_2.py", line 83, in main
+    preds, (_, _) = model(X, (h, c))
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "z:\prog\swevoice\model_2.py", line 71, in forward
+    x = self.conv_stack(x)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\container.py", line 141, in forward
+    input = module(input)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "z:\prog\swevoice\model_2.py", line 20, in forward
+    x = self.layer_norm(x)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\normalization.py", line 189, in forward
+    return F.layer_norm(
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\functional.py", line 2486, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+RuntimeError: Given normalized_shape=[80], expected input with shape [*, 80], but got input of size[32, 389, 64]

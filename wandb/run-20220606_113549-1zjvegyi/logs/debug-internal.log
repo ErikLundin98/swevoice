@@ -1,0 +1,154 @@
+2022-06-06 11:35:51,589 INFO    MainThread:1964 [internal.py:wandb_internal():90] W&B internal server running at pid: 1964, started at: 2022-06-06 11:35:51.588685
+2022-06-06 11:35:51,590 INFO    WriterThread:1964 [datastore.py:open_for_write():75] open: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\run-1zjvegyi.wandb
+2022-06-06 11:35:51,599 DEBUG   SenderThread:1964 [sender.py:send():232] send: header
+2022-06-06 11:35:51,599 DEBUG   SenderThread:1964 [sender.py:send():232] send: run
+2022-06-06 11:35:51,629 DEBUG   SenderThread:1964 [git.py:repo():29] git repository is invalid
+2022-06-06 11:35:51,822 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: check_version
+2022-06-06 11:35:51,826 INFO    SenderThread:1964 [dir_watcher.py:__init__():197] watching files in: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files
+2022-06-06 11:35:51,826 INFO    SenderThread:1964 [sender.py:_start_run_threads():811] run started: 1zjvegyi with start time 1654508149
+2022-06-06 11:35:51,826 DEBUG   SenderThread:1964 [sender.py:send():232] send: summary
+2022-06-06 11:35:51,826 INFO    SenderThread:1964 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 11:35:51,827 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: check_version
+2022-06-06 11:35:51,875 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: run_start
+2022-06-06 11:35:52,833 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\wandb-summary.json
+2022-06-06 11:35:54,985 DEBUG   HandlerThread:1964 [meta.py:__init__():35] meta init
+2022-06-06 11:35:54,985 DEBUG   HandlerThread:1964 [meta.py:__init__():49] meta init done
+2022-06-06 11:35:54,985 DEBUG   HandlerThread:1964 [meta.py:probe():209] probe
+2022-06-06 11:35:54,994 DEBUG   HandlerThread:1964 [git.py:repo():29] git repository is invalid
+2022-06-06 11:35:54,994 DEBUG   HandlerThread:1964 [meta.py:_save_pip():53] save pip
+2022-06-06 11:35:54,995 DEBUG   HandlerThread:1964 [meta.py:_save_pip():67] save pip done
+2022-06-06 11:35:54,995 DEBUG   HandlerThread:1964 [meta.py:probe():247] probe done
+2022-06-06 11:35:55,000 DEBUG   SenderThread:1964 [sender.py:send():232] send: files
+2022-06-06 11:35:55,000 INFO    SenderThread:1964 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-06 11:35:55,020 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 11:35:55,021 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 11:35:55,193 DEBUG   SenderThread:1964 [sender.py:send():232] send: telemetry
+2022-06-06 11:35:55,642 INFO    Thread-15 :1964 [upload_job.py:push():132] Uploaded file C:\Users\cerik\AppData\Local\Temp\tmp7al_7xxlwandb\3fv8p25h-wandb-metadata.json
+2022-06-06 11:35:55,865 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\wandb-metadata.json
+2022-06-06 11:35:55,866 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\output.log
+2022-06-06 11:35:55,866 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\requirements.txt
+2022-06-06 11:35:57,881 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\output.log
+2022-06-06 11:36:05,962 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\output.log
+2022-06-06 11:36:10,199 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 11:36:10,199 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 11:36:23,040 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\config.yaml
+2022-06-06 11:36:25,363 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 11:36:25,363 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 11:36:26,686 DEBUG   SenderThread:1964 [sender.py:send():232] send: stats
+2022-06-06 11:36:28,169 DEBUG   SenderThread:1964 [sender.py:send():232] send: telemetry
+2022-06-06 11:36:29,051 DEBUG   SenderThread:1964 [sender.py:send():232] send: exit
+2022-06-06 11:36:29,051 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:29,051 INFO    SenderThread:1964 [sender.py:send_exit():368] handling exit code: 1
+2022-06-06 11:36:29,052 INFO    SenderThread:1964 [sender.py:send_exit():370] handling runtime: 37
+2022-06-06 11:36:29,052 INFO    SenderThread:1964 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 11:36:29,053 INFO    SenderThread:1964 [sender.py:send_exit():376] send defer
+2022-06-06 11:36:29,053 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:29,053 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:29,053 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-06 11:36:29,054 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:29,054 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-06 11:36:29,054 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 1
+2022-06-06 11:36:29,054 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:29,054 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-06 11:36:29,093 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\wandb-summary.json
+2022-06-06 11:36:29,093 INFO    Thread-11 :1964 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\output.log
+2022-06-06 11:36:29,182 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:29,182 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:29,182 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-06 11:36:29,182 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 2
+2022-06-06 11:36:29,182 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:29,183 DEBUG   SenderThread:1964 [sender.py:send():232] send: stats
+2022-06-06 11:36:29,184 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:29,184 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-06 11:36:29,184 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:29,184 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-06 11:36:29,184 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 3
+2022-06-06 11:36:29,184 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:29,184 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-06 11:36:29,185 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:29,185 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-06 11:36:29,185 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 4
+2022-06-06 11:36:29,185 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:29,185 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-06 11:36:29,185 DEBUG   SenderThread:1964 [sender.py:send():232] send: summary
+2022-06-06 11:36:29,186 INFO    SenderThread:1964 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 11:36:29,186 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:29,186 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-06 11:36:29,186 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 5
+2022-06-06 11:36:29,186 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:29,186 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-06 11:36:29,187 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:29,187 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-06 11:36:29,295 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:29,374 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 6
+2022-06-06 11:36:29,374 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:29,374 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:29,375 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-06 11:36:29,375 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:29,375 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-06 11:36:29,375 INFO    SenderThread:1964 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-06 11:36:29,485 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,100 INFO    SenderThread:1964 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\wandb-summary.json
+2022-06-06 11:36:30,101 INFO    SenderThread:1964 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\config.yaml
+2022-06-06 11:36:30,101 INFO    SenderThread:1964 [dir_watcher.py:finish():342] scan: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files
+2022-06-06 11:36:30,101 INFO    SenderThread:1964 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\config.yaml config.yaml
+2022-06-06 11:36:30,101 INFO    SenderThread:1964 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\output.log output.log
+2022-06-06 11:36:30,102 INFO    SenderThread:1964 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\requirements.txt requirements.txt
+2022-06-06 11:36:30,107 INFO    SenderThread:1964 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\wandb-metadata.json wandb-metadata.json
+2022-06-06 11:36:30,107 INFO    SenderThread:1964 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\wandb-summary.json wandb-summary.json
+2022-06-06 11:36:30,111 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 7
+2022-06-06 11:36:30,111 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,112 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:30,114 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-06 11:36:30,115 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:30,115 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-06 11:36:30,116 INFO    SenderThread:1964 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-06 11:36:30,225 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,225 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,335 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,335 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,447 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,447 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,557 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,557 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,645 INFO    Thread-16 :1964 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\config.yaml
+2022-06-06 11:36:30,649 INFO    Thread-17 :1964 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\output.log
+2022-06-06 11:36:30,666 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,666 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,701 INFO    Thread-18 :1964 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\requirements.txt
+2022-06-06 11:36:30,749 INFO    Thread-19 :1964 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\files\wandb-summary.json
+2022-06-06 11:36:30,778 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,778 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,887 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:30,887 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:30,966 INFO    Thread-10 :1964 [sender.py:transition_state():389] send defer: 8
+2022-06-06 11:36:30,966 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:30,966 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-06 11:36:30,966 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:30,967 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-06 11:36:30,998 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:31,451 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 9
+2022-06-06 11:36:31,451 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:31,452 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:31,452 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-06 11:36:31,452 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:31,452 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-06 11:36:31,452 INFO    SenderThread:1964 [sender.py:transition_state():389] send defer: 10
+2022-06-06 11:36:31,453 DEBUG   SenderThread:1964 [sender.py:send():232] send: final
+2022-06-06 11:36:31,453 DEBUG   SenderThread:1964 [sender.py:send():232] send: footer
+2022-06-06 11:36:31,453 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 11:36:31,453 INFO    HandlerThread:1964 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-06 11:36:31,453 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: defer
+2022-06-06 11:36:31,454 INFO    SenderThread:1964 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-06 11:36:31,561 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 11:36:31,561 DEBUG   SenderThread:1964 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 11:36:31,562 INFO    SenderThread:1964 [file_pusher.py:join():150] waiting for file pusher
+2022-06-06 11:36:32,018 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-06 11:36:32,019 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-06 11:36:32,020 DEBUG   HandlerThread:1964 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-06 11:36:32,020 INFO    HandlerThread:1964 [handler.py:finish():806] shutting down handler
+2022-06-06 11:36:32,458 INFO    WriterThread:1964 [datastore.py:close():279] close: Z:\prog\swevoice\wandb\run-20220606_113549-1zjvegyi\run-1zjvegyi.wandb
+2022-06-06 11:36:32,918 INFO    SenderThread:1964 [sender.py:finish():1110] shutting down sender
+2022-06-06 11:36:32,918 INFO    SenderThread:1964 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-06 11:36:32,918 INFO    SenderThread:1964 [file_pusher.py:join():150] waiting for file pusher
+2022-06-06 11:36:32,920 INFO    MainThread:1964 [internal.py:handle_exit():80] Internal process exited

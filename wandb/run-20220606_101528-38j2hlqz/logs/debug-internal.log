@@ -1,0 +1,1070 @@
+2022-06-06 10:15:29,916 INFO    MainThread:6932 [internal.py:wandb_internal():90] W&B internal server running at pid: 6932, started at: 2022-06-06 10:15:29.915514
+2022-06-06 10:15:29,918 INFO    WriterThread:6932 [datastore.py:open_for_write():75] open: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\run-38j2hlqz.wandb
+2022-06-06 10:15:29,925 DEBUG   SenderThread:6932 [sender.py:send():232] send: header
+2022-06-06 10:15:29,926 DEBUG   SenderThread:6932 [sender.py:send():232] send: run
+2022-06-06 10:15:29,958 DEBUG   SenderThread:6932 [git.py:repo():29] git repository is invalid
+2022-06-06 10:15:30,184 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: check_version
+2022-06-06 10:15:30,186 INFO    SenderThread:6932 [dir_watcher.py:__init__():197] watching files in: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files
+2022-06-06 10:15:30,186 INFO    SenderThread:6932 [sender.py:_start_run_threads():811] run started: 38j2hlqz with start time 1654503328
+2022-06-06 10:15:30,186 DEBUG   SenderThread:6932 [sender.py:send():232] send: summary
+2022-06-06 10:15:30,186 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 10:15:30,187 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: check_version
+2022-06-06 10:15:30,232 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: run_start
+2022-06-06 10:15:31,197 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json
+2022-06-06 10:15:32,458 DEBUG   HandlerThread:6932 [meta.py:__init__():35] meta init
+2022-06-06 10:15:32,458 DEBUG   HandlerThread:6932 [meta.py:__init__():49] meta init done
+2022-06-06 10:15:32,458 DEBUG   HandlerThread:6932 [meta.py:probe():209] probe
+2022-06-06 10:15:32,475 DEBUG   HandlerThread:6932 [git.py:repo():29] git repository is invalid
+2022-06-06 10:15:32,475 DEBUG   HandlerThread:6932 [meta.py:_save_pip():53] save pip
+2022-06-06 10:15:32,476 DEBUG   HandlerThread:6932 [meta.py:_save_pip():67] save pip done
+2022-06-06 10:15:32,476 DEBUG   HandlerThread:6932 [meta.py:probe():247] probe done
+2022-06-06 10:15:32,480 DEBUG   SenderThread:6932 [sender.py:send():232] send: files
+2022-06-06 10:15:32,480 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-06 10:15:32,510 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:15:32,510 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:15:32,709 DEBUG   SenderThread:6932 [sender.py:send():232] send: telemetry
+2022-06-06 10:15:33,113 INFO    Thread-15 :6932 [upload_job.py:push():132] Uploaded file C:\Users\cerik\AppData\Local\Temp\tmp_6ydugahwandb\3j5d0mqd-wandb-metadata.json
+2022-06-06 10:15:33,217 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-metadata.json
+2022-06-06 10:15:33,218 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:15:33,218 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\requirements.txt
+2022-06-06 10:15:35,232 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:15:45,299 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:15:47,713 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:15:47,713 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:16:01,434 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\config.yaml
+2022-06-06 10:16:02,876 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:16:02,876 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:16:04,122 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:16:09,514 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:11,519 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:13,549 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:15,555 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:17,572 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:18,050 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:16:18,050 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:16:19,579 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:21,596 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:23,612 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:25,637 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:27,665 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:29,682 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:31,712 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:33,221 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:16:33,222 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:16:33,726 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:35,756 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:37,769 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:37,956 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:16:39,777 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:41,783 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:43,803 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:45,821 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:47,831 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:48,452 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:16:48,452 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:16:49,848 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:50,853 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:52,880 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:54,890 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:56,909 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:16:58,914 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:00,927 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:02,939 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:03,655 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:17:03,655 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:17:04,968 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:06,994 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:09,010 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:11,030 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:11,830 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:17:13,060 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:15,087 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:17,111 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:18,835 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:17:18,836 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:17:19,136 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:21,163 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:23,191 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:25,207 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:27,233 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:29,239 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:31,253 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:33,267 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:34,015 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:17:34,016 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:17:35,272 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:37,277 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:39,306 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:41,334 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:43,345 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:45,349 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:45,693 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:17:47,364 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:49,202 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:17:49,202 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:17:49,376 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:51,391 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:53,407 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:55,424 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:57,443 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:17:59,452 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:01,454 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:03,464 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:04,387 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:18:04,387 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:18:05,471 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:07,498 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:09,511 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:11,531 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:13,535 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:15,558 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:17,561 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:19,576 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:18:19,576 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:18:19,581 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:19,745 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:18:21,610 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:23,629 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:25,658 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:27,677 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:29,697 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:31,704 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:33,729 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:34,761 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:18:34,761 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:18:35,759 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:37,761 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:39,786 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:41,814 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:43,825 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:45,838 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:47,844 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:49,865 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:49,929 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:18:49,930 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:18:51,878 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:53,391 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:18:53,903 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:55,908 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:18:57,933 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:05,112 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:19:05,112 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:19:10,038 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:12,051 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:14,055 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:16,081 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:18,098 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:20,099 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:20,289 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:19:20,290 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:19:22,113 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:24,134 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:26,159 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:27,185 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:19:28,182 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:30,208 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:32,222 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:34,248 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:35,456 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:19:35,457 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:19:36,266 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:38,291 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:40,303 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:42,314 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:44,341 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:46,367 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:48,382 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:50,397 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:50,634 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:19:50,635 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:19:52,415 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:54,442 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:56,460 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:19:58,467 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:00,479 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:00,987 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:20:02,497 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:04,499 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:05,819 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:20:05,819 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:20:06,505 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:08,515 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:10,531 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:12,559 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:14,587 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:16,594 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:18,603 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:20,630 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:21,010 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:20:21,011 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:20:22,656 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:24,678 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:26,692 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:28,704 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:30,707 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:32,713 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:34,726 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:34,854 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:20:36,201 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:20:36,201 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:20:36,743 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:38,758 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:40,773 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:42,778 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:44,790 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:46,804 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:48,832 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:50,846 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:51,372 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:20:51,373 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:20:52,866 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:54,890 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:56,910 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:20:57,180 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-06 10:20:57,181 DEBUG   SenderThread:6932 [sender.py:send():232] send: history
+2022-06-06 10:20:57,182 DEBUG   SenderThread:6932 [sender.py:send():232] send: summary
+2022-06-06 10:20:57,182 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 10:20:57,914 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json
+2022-06-06 10:20:58,920 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:06,542 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:21:06,542 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:21:08,735 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:21:21,094 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:21,708 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:21:21,709 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:21:23,120 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:25,120 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:27,125 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:29,128 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:31,135 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:33,138 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:35,151 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:36,898 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:21:36,898 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:21:37,181 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:39,192 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:41,194 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:42,635 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:21:43,210 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:45,235 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:47,257 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:49,262 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:51,279 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:52,745 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:21:52,745 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:21:53,283 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:55,306 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:57,322 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:21:59,324 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:01,346 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:03,351 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:05,360 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:07,377 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:07,967 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:22:07,968 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:22:09,384 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:11,396 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:13,426 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:15,443 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:16,529 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:22:17,452 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:19,474 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:21,490 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:23,146 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:22:23,147 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:22:23,497 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:25,513 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:27,540 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:29,559 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:31,566 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:33,584 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:34,609 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:36,621 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:38,333 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:22:38,334 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:22:38,633 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:40,638 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:42,650 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:44,667 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:46,682 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:48,699 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:50,424 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:22:50,715 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:52,733 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:53,512 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:22:53,513 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:22:54,735 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:56,752 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:22:58,766 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:00,780 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:02,783 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:04,801 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:06,801 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:08,721 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:23:08,721 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:23:08,815 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:10,819 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:12,836 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:14,856 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:16,885 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:18,914 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:20,933 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:22,961 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:23,915 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:23:23,915 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:23:24,288 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:23:24,980 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:27,007 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:29,011 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:31,051 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:33,065 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:35,079 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:37,096 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:39,100 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:23:39,101 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:23:39,117 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:41,121 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:43,140 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:45,155 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:47,168 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:49,177 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:51,186 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:53,199 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:54,292 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:23:54,293 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:23:55,227 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:57,242 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:23:58,209 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:23:59,257 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:01,284 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:03,288 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:05,292 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:07,307 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:09,316 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:09,476 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:24:09,476 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:24:24,656 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:24:24,657 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:24:32,095 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:24:39,854 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:24:39,855 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:24:51,733 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:53,739 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:55,037 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:24:55,037 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:24:55,767 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:57,793 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:24:59,819 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:01,826 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:03,848 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:05,861 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:05,874 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:25:07,880 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:09,896 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:10,864 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:25:10,864 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:25:11,922 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:13,929 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:15,944 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:17,949 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:19,973 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:21,987 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:23,998 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:26,013 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:26,049 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:25:26,049 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:25:28,021 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:30,027 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:32,045 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:34,071 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:36,090 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:38,091 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:39,737 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:25:40,106 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:41,246 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:25:41,247 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:25:42,133 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:44,134 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:46,162 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:48,191 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:50,221 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:52,249 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:54,260 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:56,278 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:25:56,422 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:25:56,423 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:25:58,303 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:00,315 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:02,330 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:04,357 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:06,371 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:07,426 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-06 10:26:07,427 DEBUG   SenderThread:6932 [sender.py:send():232] send: history
+2022-06-06 10:26:07,427 DEBUG   SenderThread:6932 [sender.py:send():232] send: summary
+2022-06-06 10:26:07,428 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 10:26:08,376 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json
+2022-06-06 10:26:08,376 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:09,383 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:10,385 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:11,615 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:26:11,615 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:26:13,563 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:26:26,790 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:26:26,790 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:26:30,493 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:32,513 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:34,530 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:36,548 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:38,555 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:40,565 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:41,960 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:26:41,961 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:26:42,582 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:44,585 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:46,602 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:47,522 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:26:48,615 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:50,620 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:52,635 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:54,650 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:56,664 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:26:57,159 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:26:57,160 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:26:58,670 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:00,686 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:02,696 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:04,705 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:06,720 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:08,725 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:10,734 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:12,349 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:27:12,349 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:27:12,760 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:14,775 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:16,792 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:18,819 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:20,836 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:21,389 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:27:22,858 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:24,883 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:26,912 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:27,530 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:27:27,531 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:27:28,940 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:30,964 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:32,979 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:34,985 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:36,986 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:39,006 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:41,022 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:42,715 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:27:42,716 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:27:43,039 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:45,047 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:47,063 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:49,080 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:51,106 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:53,111 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:55,073 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:27:55,128 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:57,141 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:27:57,899 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:27:57,900 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:27:59,156 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:01,169 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:03,181 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:05,207 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:07,227 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:09,251 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:11,264 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:13,072 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:28:13,073 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:28:13,294 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:15,322 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:17,333 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:19,361 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:21,372 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:23,399 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:25,406 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:27,416 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:28,253 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:28:28,253 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:28:28,723 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:28:29,431 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:30,447 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:32,466 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:34,474 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:36,483 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:38,507 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:40,521 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:42,541 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:43,430 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:28:43,431 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:28:44,570 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:46,579 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:48,590 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:50,602 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:52,617 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:54,632 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:56,646 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:28:58,623 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:28:58,623 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:28:58,654 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:00,680 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:02,539 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:29:02,704 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:04,729 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:06,743 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:08,750 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:10,768 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:12,796 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:13,810 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:29:13,811 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:29:14,821 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:16,850 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:18,865 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:20,878 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:22,894 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:24,908 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:26,923 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:28,945 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:28,993 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:29:28,993 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:29:30,969 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:32,992 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:36,118 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:29:44,165 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:29:44,166 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:29:45,109 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:47,131 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:49,150 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:51,160 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:53,174 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:55,191 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:57,207 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:59,227 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:29:59,353 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:29:59,354 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:30:01,255 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:03,268 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:05,282 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:07,291 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:09,306 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:09,710 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:30:11,318 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:13,327 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:14,550 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:30:14,551 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:30:15,344 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:17,358 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:19,363 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:21,377 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:23,401 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:25,425 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:27,436 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:29,452 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:29,735 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:30:29,736 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:30:31,460 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:33,478 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:35,501 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:37,524 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:39,543 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:41,566 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:43,213 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:30:43,587 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:44,919 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:30:44,920 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:30:45,605 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:47,663 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:49,681 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:51,708 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:53,733 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:55,742 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:57,752 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:30:59,769 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:00,098 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:31:00,099 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:31:01,787 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:03,798 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:05,812 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:07,837 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:09,863 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:11,879 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:13,897 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:15,286 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:31:15,286 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:31:15,918 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:16,713 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:31:17,935 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:19,965 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:21,973 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:23,994 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:26,014 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:28,027 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:30,046 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:30,466 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:31:30,467 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:31:32,070 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:34,079 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:36,097 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:38,118 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:40,129 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:42,137 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:44,166 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:45,632 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:31:45,633 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:31:46,186 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:48,204 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:50,215 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:31:50,223 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:52,228 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:52,603 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-06 10:31:52,604 DEBUG   SenderThread:6932 [sender.py:send():232] send: history
+2022-06-06 10:31:52,605 DEBUG   SenderThread:6932 [sender.py:send():232] send: summary
+2022-06-06 10:31:52,605 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 10:31:53,233 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json
+2022-06-06 10:31:54,240 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:31:55,248 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:00,798 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:32:00,799 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:32:15,971 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:32:15,973 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:32:18,452 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:20,465 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:22,473 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:23,855 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:32:24,492 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:26,512 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:28,518 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:30,536 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:31,155 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:32:31,155 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:32:32,549 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:34,558 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:36,574 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:38,575 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:40,599 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:42,619 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:44,630 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:46,353 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:32:46,353 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:32:46,656 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:48,666 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:50,680 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:52,703 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:54,727 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:56,747 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:32:57,653 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:32:58,772 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:00,783 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:01,536 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:33:01,537 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:33:02,786 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:04,810 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:06,836 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:08,847 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:10,863 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:12,872 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:14,891 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:16,717 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:33:16,718 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:33:16,905 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:18,922 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:20,949 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:22,981 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:24,996 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:27,019 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:29,040 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:30,053 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:31,468 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:33:31,882 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:33:31,882 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:33:32,058 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:34,078 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:36,100 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:38,116 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:40,137 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:42,156 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:44,159 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:46,180 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:47,061 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:33:47,062 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:33:48,197 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:50,209 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:52,224 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:54,249 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:56,269 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:33:58,299 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:00,312 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:02,230 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:34:02,231 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:34:02,324 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:04,338 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:05,366 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:34:06,360 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:08,370 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:10,397 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:12,398 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:14,425 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:16,434 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:17,418 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:34:17,418 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:34:18,450 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:20,468 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:22,479 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:24,505 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:26,511 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:28,526 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:30,532 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:32,548 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:32,595 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:34:32,596 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:34:34,564 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:36,585 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:38,605 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:39,205 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:34:40,618 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:42,634 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:44,635 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:46,650 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:47,787 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:34:47,787 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:34:48,675 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:50,693 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:52,717 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:54,729 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:56,755 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:34:58,779 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:00,806 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:02,811 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:02,968 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:35:02,968 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:35:04,824 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:06,848 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:08,871 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:13,017 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:35:18,150 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:35:18,150 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:35:23,015 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:25,041 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:27,059 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:29,084 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:31,097 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:33,117 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:33,321 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:35:33,322 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:35:35,121 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:37,132 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:39,155 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:41,160 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:43,184 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:45,187 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:46,707 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:35:47,207 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:48,505 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:35:48,505 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:35:49,235 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:51,264 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:53,275 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:55,289 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:57,295 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:35:59,306 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:01,327 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:03,339 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:03,686 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:36:03,687 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:36:05,355 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:07,361 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:09,388 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:11,404 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:13,421 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:15,428 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:17,431 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:18,881 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:36:18,882 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:36:19,437 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:20,458 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:36:21,454 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:23,480 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:25,508 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:27,535 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:29,552 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:31,580 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:33,593 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:34,077 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:36:34,078 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:36:35,611 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:37,632 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:39,650 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:41,664 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:43,685 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:45,712 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:47,735 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:49,251 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:36:49,251 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:36:49,744 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:51,765 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:53,791 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:54,155 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:36:55,815 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:57,833 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:36:59,845 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:01,875 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:03,890 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:04,482 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:37:04,482 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:37:05,910 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:07,915 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:09,932 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:11,948 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:13,976 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:14,821 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-06 10:37:14,822 DEBUG   SenderThread:6932 [sender.py:send():232] send: history
+2022-06-06 10:37:14,823 DEBUG   SenderThread:6932 [sender.py:send():232] send: summary
+2022-06-06 10:37:14,824 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 10:37:14,990 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json
+2022-06-06 10:37:15,991 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:17,006 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:18,019 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:19,677 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:37:19,677 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:37:27,960 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:37:34,849 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:37:34,849 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:37:38,193 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:40,209 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:42,215 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:44,235 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:46,259 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:48,270 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:50,044 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:37:50,044 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:37:50,295 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:51,308 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:53,325 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:55,342 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:57,363 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:37:59,367 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:01,388 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:01,814 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:38:03,402 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:05,228 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:38:05,229 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:38:05,419 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:07,444 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:09,474 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:11,479 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:13,492 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:15,507 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:17,531 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:19,538 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:20,427 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:38:20,428 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:38:21,564 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:23,576 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:25,580 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:27,593 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:29,603 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:31,620 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:33,640 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:35,620 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:38:35,620 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:38:35,677 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:35,841 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:38:37,692 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:39,708 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:41,721 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:43,741 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:45,760 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:47,786 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:49,801 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:50,846 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:38:50,846 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:38:51,827 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:53,852 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:55,869 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:57,898 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:38:59,916 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:01,936 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:03,949 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:05,968 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:06,064 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:39:06,065 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:39:07,987 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:09,632 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:39:10,003 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:12,021 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:14,035 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:16,064 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:18,083 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:20,098 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:21,236 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:39:21,237 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:39:22,124 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:24,136 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:26,139 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:28,151 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:30,169 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:32,196 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:34,210 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:35,213 WARNING MainThread:6932 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-06 10:39:36,256 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:36,428 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 10:39:36,428 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 10:39:37,375 DEBUG   SenderThread:6932 [sender.py:send():232] send: telemetry
+2022-06-06 10:39:37,905 DEBUG   SenderThread:6932 [sender.py:send():232] send: exit
+2022-06-06 10:39:37,906 INFO    SenderThread:6932 [sender.py:send_exit():368] handling exit code: 255
+2022-06-06 10:39:37,931 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:37,931 INFO    SenderThread:6932 [sender.py:send_exit():370] handling runtime: 1447
+2022-06-06 10:39:37,931 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 10:39:37,931 INFO    SenderThread:6932 [sender.py:send_exit():376] send defer
+2022-06-06 10:39:37,934 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:37,940 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:37,940 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-06 10:39:37,940 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:37,940 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-06 10:39:37,940 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 1
+2022-06-06 10:39:37,941 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:37,941 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-06 10:39:38,078 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:38,078 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:38,078 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-06 10:39:38,078 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 2
+2022-06-06 10:39:38,078 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:38,079 DEBUG   SenderThread:6932 [sender.py:send():232] send: stats
+2022-06-06 10:39:38,080 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:38,080 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-06 10:39:38,081 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:38,081 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-06 10:39:38,081 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 3
+2022-06-06 10:39:38,082 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:38,082 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-06 10:39:38,083 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:38,084 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-06 10:39:38,084 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 4
+2022-06-06 10:39:38,084 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:38,084 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-06 10:39:38,085 DEBUG   SenderThread:6932 [sender.py:send():232] send: summary
+2022-06-06 10:39:38,086 INFO    SenderThread:6932 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 10:39:38,086 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:38,086 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-06 10:39:38,086 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 5
+2022-06-06 10:39:38,086 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:38,086 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-06 10:39:38,087 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:38,087 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-06 10:39:38,195 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:38,276 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json
+2022-06-06 10:39:38,276 INFO    Thread-11 :6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:38,315 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 6
+2022-06-06 10:39:38,316 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:38,316 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:38,316 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-06 10:39:38,317 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:38,317 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-06 10:39:38,317 INFO    SenderThread:6932 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-06 10:39:38,433 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:39,287 INFO    SenderThread:6932 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\config.yaml
+2022-06-06 10:39:39,288 INFO    SenderThread:6932 [dir_watcher.py:finish():342] scan: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files
+2022-06-06 10:39:39,288 INFO    SenderThread:6932 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\config.yaml config.yaml
+2022-06-06 10:39:39,288 INFO    SenderThread:6932 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log output.log
+2022-06-06 10:39:39,289 INFO    SenderThread:6932 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\requirements.txt requirements.txt
+2022-06-06 10:39:39,289 INFO    SenderThread:6932 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-metadata.json wandb-metadata.json
+2022-06-06 10:39:39,289 INFO    SenderThread:6932 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json wandb-summary.json
+2022-06-06 10:39:39,289 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 7
+2022-06-06 10:39:39,289 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:39,290 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:39,291 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-06 10:39:39,293 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:39,293 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-06 10:39:39,299 INFO    SenderThread:6932 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-06 10:39:39,396 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:39,397 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:39,508 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:39,508 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:39,616 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:39,616 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:39,727 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:39,727 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:39,837 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:39,837 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:39,877 INFO    Thread-18 :6932 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\requirements.txt
+2022-06-06 10:39:39,897 INFO    Thread-17 :6932 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\output.log
+2022-06-06 10:39:39,901 INFO    Thread-19 :6932 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\wandb-summary.json
+2022-06-06 10:39:39,947 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:39,947 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,057 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,058 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,168 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,168 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,278 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,278 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,388 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,388 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,494 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,494 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,602 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,603 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,712 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,713 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,824 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,825 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:40,935 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:40,936 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,046 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,047 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,156 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,156 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,268 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,268 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,379 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,379 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,491 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,492 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,601 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,601 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,713 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,713 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,823 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,824 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:41,933 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:41,933 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:42,044 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:42,044 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:42,084 INFO    Thread-16 :6932 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\files\config.yaml
+2022-06-06 10:39:42,153 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:42,153 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:42,264 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:42,265 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:42,295 INFO    Thread-10 :6932 [sender.py:transition_state():389] send defer: 8
+2022-06-06 10:39:42,296 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:42,296 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-06 10:39:42,296 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:42,297 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-06 10:39:42,375 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:42,774 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 9
+2022-06-06 10:39:42,774 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:42,775 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:42,775 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-06 10:39:42,775 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:42,775 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-06 10:39:42,776 INFO    SenderThread:6932 [sender.py:transition_state():389] send defer: 10
+2022-06-06 10:39:42,776 DEBUG   SenderThread:6932 [sender.py:send():232] send: final
+2022-06-06 10:39:42,776 DEBUG   SenderThread:6932 [sender.py:send():232] send: footer
+2022-06-06 10:39:42,777 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: defer
+2022-06-06 10:39:42,777 INFO    HandlerThread:6932 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-06 10:39:42,777 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: defer
+2022-06-06 10:39:42,777 INFO    SenderThread:6932 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-06 10:39:42,883 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-06 10:39:42,883 DEBUG   SenderThread:6932 [sender.py:send_request():246] send_request: poll_exit
+2022-06-06 10:39:42,884 INFO    SenderThread:6932 [file_pusher.py:join():150] waiting for file pusher
+2022-06-06 10:39:43,310 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-06 10:39:43,313 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-06 10:39:43,316 DEBUG   HandlerThread:6932 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-06 10:39:43,316 INFO    HandlerThread:6932 [handler.py:finish():806] shutting down handler
+2022-06-06 10:39:43,782 INFO    WriterThread:6932 [datastore.py:close():279] close: Z:\prog\swevoice\wandb\run-20220606_101528-38j2hlqz\run-38j2hlqz.wandb
+2022-06-06 10:39:44,220 INFO    SenderThread:6932 [sender.py:finish():1110] shutting down sender
+2022-06-06 10:39:44,220 INFO    SenderThread:6932 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-06 10:39:44,220 INFO    SenderThread:6932 [file_pusher.py:join():150] waiting for file pusher
+2022-06-06 10:39:44,301 INFO    MainThread:6932 [internal.py:handle_exit():80] Internal process exited

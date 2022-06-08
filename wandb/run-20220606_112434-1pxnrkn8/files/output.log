@@ -1,0 +1,29 @@
+
+using device cuda
+label: drömmer du aldrig om nåt annat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Batch loss: 3.20117:   4%|██████████                                                                                                                                                                                                                                      | 90/2160 [01:04<24:53,  1.39it/s]
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train_2.py", line 123, in <module>
+    main()
+  File "z:/prog/swevoice/train_2.py", line 89, in main
+    train_loss += loss.detach().item()
+KeyboardInterrupt

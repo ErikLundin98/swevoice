@@ -1,0 +1,8 @@
+
+using device cuda
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train_2.py", line 131, in <module>
+    main()
+  File "z:/prog/swevoice/train_2.py", line 72, in main
+    label_text = dataset.translate_from_list_of_int(Y_demo[0].detach().numpy())
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

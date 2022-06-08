@@ -1,0 +1,67 @@
+
+using device cuda
+30718 3839 3841 38398
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Batch loss: nan:  53%|████████████████████████████████████████████████████████████████████████                                                               | 256/480 [01:28<01:17,  2.91it/s]
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train.py", line 95, in <module>
+    main()
+  File "z:/prog/swevoice/train.py", line 57, in main
+    for i, (X, Y, X_lens, Y_lens) in enumerate(progress):
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\tqdm\std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 1207, in _next_data
+    idx, data = self._get_data()
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 1173, in _get_data
+    success, data = self._try_get_data()
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 1011, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\multiprocessing\queues.py", line 107, in get
+    if not self._poll(timeout):
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\multiprocessing\connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\multiprocessing\connection.py", line 330, in _poll
+    return bool(wait([self], timeout))
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\multiprocessing\connection.py", line 879, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\multiprocessing\connection.py", line 811, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+KeyboardInterrupt

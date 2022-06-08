@@ -1,0 +1,11 @@
+
+using device cuda
+30718 3839 3841 38398
+label: något krav på bostad finns inte heller.
+  0%|                                                                                                                                                                  | 0/960 [00:24<?, ?it/s]
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train.py", line 104, in <module>
+    main()
+  File "z:/prog/swevoice/train.py", line 76, in main
+    progress.set_description("Batch loss: " + str(np.round(loss.cpu().numpy(), 5)))
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.

@@ -1,0 +1,160 @@
+
+using device cuda
+  0%|                                                                                                                                                                  | 0/960 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Batch loss: 1.54544: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 960/960 [02:31<00:00,  6.34it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊| 3837/3841 [01:25<00:00, 48.29it/s]
+Validation Loss 1.38955651856794
+Sample: han  tiinssteketten torsduvoommom jöroksåokahoonit förret  beoss..t
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3841/3841 [01:25<00:00, 44.70it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Batch loss: 1.52545:  39%|███████████████████████████████████████████████████▎                                                                               | 376/960 [01:17<01:59,  4.88it/s]
+Traceback (most recent call last):
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 1011, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\multiprocessing\queues.py", line 116, in get
+    return _ForkingPickler.loads(res)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\multiprocessing\reductions.py", line 311, in rebuild_storage_filename
+    storage = cls._new_shared_filename(manager, handle, size)
+RuntimeError: Couldn't open shared event: <0000029EC938A7D2>, error code: <2>
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train.py", line 117, in <module>
+    main()
+  File "z:/prog/swevoice/train.py", line 72, in main
+    for i, (X, Y, X_lens, Y_lens) in enumerate(progress):
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\tqdm\std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 1207, in _next_data
+    idx, data = self._get_data()
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 1173, in _get_data
+    success, data = self._try_get_data()
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\utils\data\dataloader.py", line 1024, in _try_get_data
+    raise RuntimeError('DataLoader worker (pid(s) {}) exited unexpectedly'.format(pids_str)) from e
+RuntimeError: DataLoader worker (pid(s) 19448, 6300, 2084, 19308) exited unexpectedly

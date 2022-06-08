@@ -1,0 +1,182 @@
+2022-06-03 13:18:10,088 INFO    MainThread:15268 [internal.py:wandb_internal():90] W&B internal server running at pid: 15268, started at: 2022-06-03 13:18:10.088726
+2022-06-03 13:18:10,090 INFO    WriterThread:15268 [datastore.py:open_for_write():75] open: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\run-1igun59k.wandb
+2022-06-03 13:18:10,098 DEBUG   SenderThread:15268 [sender.py:send():232] send: header
+2022-06-03 13:18:10,098 DEBUG   SenderThread:15268 [sender.py:send():232] send: run
+2022-06-03 13:18:10,130 DEBUG   SenderThread:15268 [git.py:repo():29] git repository is invalid
+2022-06-03 13:18:10,751 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: check_version
+2022-06-03 13:18:10,755 INFO    SenderThread:15268 [dir_watcher.py:__init__():197] watching files in: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files
+2022-06-03 13:18:10,756 INFO    SenderThread:15268 [sender.py:_start_run_threads():811] run started: 1igun59k with start time 1654255088
+2022-06-03 13:18:10,756 DEBUG   SenderThread:15268 [sender.py:send():232] send: summary
+2022-06-03 13:18:10,756 INFO    SenderThread:15268 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-03 13:18:10,756 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: check_version
+2022-06-03 13:18:10,801 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: run_start
+2022-06-03 13:18:11,766 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\wandb-summary.json
+2022-06-03 13:18:15,864 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:17,741 DEBUG   HandlerThread:15268 [meta.py:__init__():35] meta init
+2022-06-03 13:18:17,741 DEBUG   HandlerThread:15268 [meta.py:__init__():49] meta init done
+2022-06-03 13:18:17,741 DEBUG   HandlerThread:15268 [meta.py:probe():209] probe
+2022-06-03 13:18:17,757 DEBUG   HandlerThread:15268 [git.py:repo():29] git repository is invalid
+2022-06-03 13:18:17,757 DEBUG   HandlerThread:15268 [meta.py:_save_pip():53] save pip
+2022-06-03 13:18:17,758 DEBUG   HandlerThread:15268 [meta.py:_save_pip():67] save pip done
+2022-06-03 13:18:17,758 DEBUG   HandlerThread:15268 [meta.py:probe():247] probe done
+2022-06-03 13:18:17,766 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-03 13:18:17,766 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: stop_status
+2022-06-03 13:18:17,879 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:17,879 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\wandb-metadata.json
+2022-06-03 13:18:17,880 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\requirements.txt
+2022-06-03 13:18:17,958 DEBUG   SenderThread:15268 [sender.py:send():232] send: telemetry
+2022-06-03 13:18:17,958 DEBUG   SenderThread:15268 [sender.py:send():232] send: files
+2022-06-03 13:18:17,959 INFO    SenderThread:15268 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-03 13:18:18,623 INFO    Thread-15 :15268 [upload_job.py:push():132] Uploaded file C:\Users\cerik\AppData\Local\Temp\tmp18ptegwrwandb\2ouvspz2-wandb-metadata.json
+2022-06-03 13:18:19,899 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:31,997 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:32,964 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-03 13:18:32,965 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: stop_status
+2022-06-03 13:18:34,015 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:36,036 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:38,062 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:40,084 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:42,111 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:42,112 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\config.yaml
+2022-06-03 13:18:44,127 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:46,149 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:48,143 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-03 13:18:48,144 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: stop_status
+2022-06-03 13:18:48,159 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:49,161 DEBUG   SenderThread:15268 [sender.py:send():232] send: stats
+2022-06-03 13:18:50,177 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:52,198 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:54,212 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:56,225 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:18:58,245 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:00,266 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:02,296 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:03,317 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-03 13:19:03,318 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: stop_status
+2022-06-03 13:19:04,303 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:06,318 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:08,331 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:10,355 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:12,366 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:14,378 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:16,399 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:18,423 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:18,517 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-03 13:19:18,518 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: stop_status
+2022-06-03 13:19:20,435 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:22,461 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:22,768 DEBUG   SenderThread:15268 [sender.py:send():232] send: stats
+2022-06-03 13:19:24,467 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:26,478 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:28,496 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:30,505 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:32,528 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:33,745 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-03 13:19:33,745 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: stop_status
+2022-06-03 13:19:34,555 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:36,579 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:38,593 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:40,611 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:42,636 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:44,655 INFO    Thread-11 :15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:45,664 WARNING MainThread:15268 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-03 13:19:45,685 DEBUG   SenderThread:15268 [sender.py:send():232] send: telemetry
+2022-06-03 13:19:46,260 DEBUG   SenderThread:15268 [sender.py:send():232] send: exit
+2022-06-03 13:19:46,260 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:46,261 INFO    SenderThread:15268 [sender.py:send_exit():368] handling exit code: 255
+2022-06-03 13:19:46,261 INFO    SenderThread:15268 [sender.py:send_exit():370] handling runtime: 95
+2022-06-03 13:19:46,262 INFO    SenderThread:15268 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-03 13:19:46,262 INFO    SenderThread:15268 [sender.py:send_exit():376] send defer
+2022-06-03 13:19:46,262 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:46,263 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,263 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-03 13:19:46,263 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,263 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-03 13:19:46,263 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 1
+2022-06-03 13:19:46,263 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,263 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-03 13:19:46,334 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,335 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-03 13:19:46,335 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 2
+2022-06-03 13:19:46,335 DEBUG   SenderThread:15268 [sender.py:send():232] send: stats
+2022-06-03 13:19:46,336 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,336 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-03 13:19:46,336 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,336 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-03 13:19:46,336 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 3
+2022-06-03 13:19:46,336 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,336 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-03 13:19:46,336 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,336 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-03 13:19:46,337 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 4
+2022-06-03 13:19:46,337 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,337 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-03 13:19:46,337 DEBUG   SenderThread:15268 [sender.py:send():232] send: summary
+2022-06-03 13:19:46,337 INFO    SenderThread:15268 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-03 13:19:46,338 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,338 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-03 13:19:46,338 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 5
+2022-06-03 13:19:46,338 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,338 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-03 13:19:46,338 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,338 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-03 13:19:46,364 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:46,522 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 6
+2022-06-03 13:19:46,522 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:46,523 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,523 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-03 13:19:46,523 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,523 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-03 13:19:46,523 INFO    SenderThread:15268 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-03 13:19:46,630 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:46,676 INFO    SenderThread:15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\wandb-summary.json
+2022-06-03 13:19:46,677 INFO    SenderThread:15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:46,677 INFO    SenderThread:15268 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\config.yaml
+2022-06-03 13:19:46,677 INFO    SenderThread:15268 [dir_watcher.py:finish():342] scan: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files
+2022-06-03 13:19:46,677 INFO    SenderThread:15268 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\config.yaml config.yaml
+2022-06-03 13:19:46,677 INFO    SenderThread:15268 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log output.log
+2022-06-03 13:19:46,678 INFO    SenderThread:15268 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\requirements.txt requirements.txt
+2022-06-03 13:19:46,683 INFO    SenderThread:15268 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\wandb-metadata.json wandb-metadata.json
+2022-06-03 13:19:46,684 INFO    SenderThread:15268 [dir_watcher.py:finish():356] scan save: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\wandb-summary.json wandb-summary.json
+2022-06-03 13:19:46,687 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 7
+2022-06-03 13:19:46,687 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:46,689 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:46,691 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-03 13:19:46,691 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:46,692 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-03 13:19:46,692 INFO    SenderThread:15268 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-03 13:19:46,800 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:46,800 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:46,909 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:46,909 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:47,018 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:47,019 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:47,127 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:47,128 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:47,237 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:47,238 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:47,266 INFO    Thread-19 :15268 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\wandb-summary.json
+2022-06-03 13:19:47,278 INFO    Thread-17 :15268 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\output.log
+2022-06-03 13:19:47,300 INFO    Thread-16 :15268 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\config.yaml
+2022-06-03 13:19:47,325 INFO    Thread-18 :15268 [upload_job.py:push():132] Uploaded file Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\files\requirements.txt
+2022-06-03 13:19:47,346 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:47,346 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:47,455 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:47,455 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: poll_exit
+2022-06-03 13:19:47,533 INFO    Thread-10 :15268 [sender.py:transition_state():389] send defer: 8
+2022-06-03 13:19:47,533 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:47,533 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-03 13:19:47,534 DEBUG   SenderThread:15268 [sender.py:send_request():246] send_request: defer
+2022-06-03 13:19:47,534 INFO    SenderThread:15268 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-03 13:19:47,564 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-03 13:19:47,930 WARNING MainThread:15268 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-06-03 13:19:47,930 ERROR   MainThread:15268 [internal.py:wandb_internal():156] Internal process interrupted.
+2022-06-03 13:19:48,045 INFO    SenderThread:15268 [sender.py:transition_state():389] send defer: 9
+2022-06-03 13:19:48,045 INFO    SenderThread:15268 [sender.py:finish():1110] shutting down sender
+2022-06-03 13:19:48,045 INFO    SenderThread:15268 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-03 13:19:48,045 INFO    SenderThread:15268 [file_pusher.py:join():150] waiting for file pusher
+2022-06-03 13:19:48,046 DEBUG   HandlerThread:15268 [handler.py:handle_request():141] handle_request: defer
+2022-06-03 13:19:48,046 INFO    HandlerThread:15268 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-03 13:19:48,046 INFO    HandlerThread:15268 [handler.py:finish():806] shutting down handler
+2022-06-03 13:19:48,357 INFO    WriterThread:15268 [datastore.py:close():279] close: Z:\prog\swevoice\wandb\run-20220603_131808-1igun59k\run-1igun59k.wandb
+2022-06-03 13:19:48,357 INFO    MainThread:15268 [internal.py:handle_exit():80] Internal process exited

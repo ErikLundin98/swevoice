@@ -1,0 +1,37 @@
+2022-06-05 00:53:18,821 INFO    MainThread:16604 [internal.py:wandb_internal():90] W&B internal server running at pid: 16604, started at: 2022-06-05 00:53:18.820077
+2022-06-05 00:53:18,823 INFO    WriterThread:16604 [datastore.py:open_for_write():75] open: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\run-xvg8u20w.wandb
+2022-06-05 00:53:18,831 DEBUG   SenderThread:16604 [sender.py:send():232] send: header
+2022-06-05 00:53:18,831 DEBUG   SenderThread:16604 [sender.py:send():232] send: run
+2022-06-05 00:53:18,861 DEBUG   SenderThread:16604 [git.py:repo():29] git repository is invalid
+2022-06-05 00:53:19,053 DEBUG   HandlerThread:16604 [handler.py:handle_request():141] handle_request: check_version
+2022-06-05 00:53:19,054 INFO    SenderThread:16604 [dir_watcher.py:__init__():197] watching files in: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files
+2022-06-05 00:53:19,054 INFO    SenderThread:16604 [sender.py:_start_run_threads():811] run started: xvg8u20w with start time 1654383197
+2022-06-05 00:53:19,054 DEBUG   SenderThread:16604 [sender.py:send():232] send: summary
+2022-06-05 00:53:19,054 INFO    SenderThread:16604 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 00:53:19,055 DEBUG   SenderThread:16604 [sender.py:send_request():246] send_request: check_version
+2022-06-05 00:53:19,115 DEBUG   HandlerThread:16604 [handler.py:handle_request():141] handle_request: run_start
+2022-06-05 00:53:20,065 INFO    Thread-11 :16604 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files\wandb-summary.json
+2022-06-05 00:53:21,297 DEBUG   HandlerThread:16604 [meta.py:__init__():35] meta init
+2022-06-05 00:53:21,297 DEBUG   HandlerThread:16604 [meta.py:__init__():49] meta init done
+2022-06-05 00:53:21,297 DEBUG   HandlerThread:16604 [meta.py:probe():209] probe
+2022-06-05 00:53:21,318 DEBUG   HandlerThread:16604 [git.py:repo():29] git repository is invalid
+2022-06-05 00:53:21,318 DEBUG   HandlerThread:16604 [meta.py:_save_pip():53] save pip
+2022-06-05 00:53:21,319 DEBUG   HandlerThread:16604 [meta.py:_save_pip():67] save pip done
+2022-06-05 00:53:21,319 DEBUG   HandlerThread:16604 [meta.py:probe():247] probe done
+2022-06-05 00:53:21,323 DEBUG   SenderThread:16604 [sender.py:send():232] send: files
+2022-06-05 00:53:21,323 INFO    SenderThread:16604 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-05 00:53:21,346 DEBUG   HandlerThread:16604 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 00:53:21,347 DEBUG   SenderThread:16604 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 00:53:21,525 DEBUG   SenderThread:16604 [sender.py:send():232] send: telemetry
+2022-06-05 00:53:21,969 INFO    Thread-15 :16604 [upload_job.py:push():132] Uploaded file C:\Users\cerik\AppData\Local\Temp\tmp_u45ndy7wandb\69qq9fdz-wandb-metadata.json
+2022-06-05 00:53:22,082 INFO    Thread-11 :16604 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files\output.log
+2022-06-05 00:53:22,083 INFO    Thread-11 :16604 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files\requirements.txt
+2022-06-05 00:53:22,083 INFO    Thread-11 :16604 [dir_watcher.py:_on_file_created():244] file/dir created: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files\wandb-metadata.json
+2022-06-05 00:53:24,093 INFO    Thread-11 :16604 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files\output.log
+2022-06-05 00:53:34,165 INFO    Thread-11 :16604 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files\output.log
+2022-06-05 00:53:36,532 DEBUG   HandlerThread:16604 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 00:53:36,532 DEBUG   SenderThread:16604 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 00:53:50,278 INFO    Thread-11 :16604 [dir_watcher.py:_on_file_modified():257] file/dir modified: Z:\prog\swevoice\wandb\run-20220605_005317-xvg8u20w\files\config.yaml
+2022-06-05 00:53:51,711 DEBUG   HandlerThread:16604 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 00:53:51,712 DEBUG   SenderThread:16604 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 00:53:52,672 DEBUG   SenderThread:16604 [sender.py:send():232] send: stats

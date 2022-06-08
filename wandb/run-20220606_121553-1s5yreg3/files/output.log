@@ -1,0 +1,19 @@
+
+using device cuda
+label: det värsta är, tro mig, att de andra barnen komma att följa eemplet.
+
+
+
+Batch loss: 3.26308:   6%|███████████▎                                                                                                                                                                                                | 120/2160 [00:33<09:22,  3.63it/s]
+Traceback (most recent call last):
+  File "z:/prog/swevoice/train_2.py", line 131, in <module>
+    main()
+  File "z:/prog/swevoice/train_2.py", line 91, in main
+    loss = loss_fn(preds, Y, X_lens, Y_lens)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\modules\loss.py", line 1743, in forward
+    return F.ctc_loss(log_probs, targets, input_lengths, target_lengths, self.blank, self.reduction,
+  File "C:\Users\cerik\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\nn\functional.py", line 2599, in ctc_loss
+    return torch.ctc_loss(
+KeyboardInterrupt
